@@ -1,0 +1,27 @@
+{
+  "name": "eberfreitas/cakephp-slugomatic",
+  "version": "0.0.1",
+  "description": "CakePHP behavior to automatically create slugs for your URLs from database records",
+  "type": "cakephp-plugin",
+  "keywords": [
+    "cakephp", "behavior", "plugin", "seo", "slug"
+  ],
+  "homepage": "http://github.com/eberfreitas/cakephp-slugomatic",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Éber Freitas Dias",
+      "role": "Maintainer"
+    }
+  ],
+  "require": {
+    "composer/installers": "*"
+  },
+  "support": {
+    "issues": "https://github.com/eberfreitas/cakephp-slugomatic/issues",
+    "source": "https://github.com/eberfreitas/cakephp-slugomatic"
+  },
+  "extra": {
+    "installer-name": "Slugomatic"
+  }
+}
