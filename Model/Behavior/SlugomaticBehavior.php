@@ -82,7 +82,7 @@ class SlugomaticBehavior extends ModelBehavior {
 
 			if (!empty($scope)) {
 				foreach ($scope as $s) {
-					if (!empty($model->data[$model->alias][$s])) {
+					if (isset($model->data[$model->alias][$s])) {
 						$conditions[$model->alias . '.' . $s] = $model->data[$model->alias][$s];
 					}
 				}
