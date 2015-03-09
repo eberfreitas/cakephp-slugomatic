@@ -81,7 +81,7 @@ After that, go to the model where you want to use the plugin and attach the
 behavior like this:
 
 ```php
-public $actAs = array(
+public $actsAs = array(
     'Slugomatic.Slugomatic'
 );
 ```
@@ -91,7 +91,7 @@ created using the data from that field. If you have a different field name, just
 configure the behavior like this:
 
 ```php
-public $actAs = array(
+public $actsAs = array(
     'Slugomatic.Slugomatic' => array(
         'fields' => 'name'
     )
@@ -115,7 +115,7 @@ this:
 When configuring the behavior, you have the following options:
 
 ```php
-public $actAs = array(
+public $actsAs = array(
     'Slugomatic.Slugomatic' => array(
         'fields' => 'title',
         'scope' => false,
