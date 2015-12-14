@@ -1,6 +1,6 @@
 {
   "name": "eberfreitas/cakephp-slugomatic",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CakePHP behavior to automatically create slugs for your URLs from database records",
   "type": "cakephp-plugin",
   "minimum-stability": "dev",
