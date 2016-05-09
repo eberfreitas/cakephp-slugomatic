@@ -34,7 +34,7 @@ Add the plugin to your project's `composer.json` - something like this:
 }
 ```
 
-Because this plugin has the type `cakephp-plugin` set in it's own
+Because this plugin has the type `cakephp-plugin` set in its own
 `composer.json`, composer knows to install it inside your `/Plugins` directory,
 rather than in the usual vendors file. It is recommended that you add
 `/Plugins/Slugomatic` to your .gitignore file.
